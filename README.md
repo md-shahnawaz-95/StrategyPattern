@@ -9,19 +9,4 @@ Strategy lets the algorithm vary independently from client that use it.
 Favour composition(has-a) over inheritance(is-a)
 
 #Structure
- _______________              _______________              ____________________
-|    Client     |----------> |  IBehavaiour  | =========> | ConcreteBehaviourA |
- _______________              _______________              ____________________  
-|  IBehavaiour  |            |     run()     |            |     run()          |
-|  execute()    |            |               |            |                    |
-|               |            |               |             ____________________
-|               |            |               | 
-|               |            |               |             ____________________
-|_______________|            |_______________| =========> | ConcreteBehaviourB |
-                                                           ____________________
-                                                          |    run()           |
-														  |                    |
-														   ____________________
-														   
-
-
+For structure and exaple please view the diagram.jpg file
