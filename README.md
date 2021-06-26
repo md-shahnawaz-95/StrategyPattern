@@ -1,5 +1,5 @@
 # StrategyPattern
-This is a repository for explaining about the trategy pattern.
+This is a repository for explaining about the Strategy pattern.
 
 # Definition
 The Strategy Pattern defines a family of algoriths, encapsulates each one, and make them interchangeble. 
